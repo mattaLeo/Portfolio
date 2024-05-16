@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Pacifico&display=swap');
+
+header{
+    background-color: white;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#acronimo{
+    font-size: 60px;
+    margin-left: 20px;
+    font-family: 'Pacifico';
+}
+
+#btnHome{
+    background-color: transparent;
+    border: 0px;
+}
+
+body{
+    margin: 0px;
+    background: linear-gradient(45deg, black, rgb(57, 57, 57));
+}
+
+.btn{
+    border: 0px;
+    font-size: 25px;
+    background-color: transparent;
+    border-bottom: 2px solid white;
+    color: rgb(0, 0, 0);
+    width: 150px;
+    font-family: 'Indie Flower';
+    transition-duration: 0.4s;
+}
+
+.btn:hover{
+    border-bottom: 2px solid rgb(255, 149, 0);
+}

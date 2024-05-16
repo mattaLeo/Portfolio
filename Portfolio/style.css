@@ -17,6 +17,7 @@ header{
 #acronimo{
     font-size: 60px;
     margin-left: 20px;
+    font-family: 'Pacifico';
 }
 
 .icona{
@@ -53,15 +54,11 @@ header{
     color: white;
     width: 150px;
     font-family: 'Indie Flower';
+    transition-duration: 0.4s;
 }
 
 button:hover{
     border-bottom: 2px solid rgb(255, 149, 0);
-    transition-duration: 0.2s;
-}
-
-#acronimo{
-    font-family: 'Pacifico';
 }
 
 #lastWorkTitle{
@@ -85,12 +82,12 @@ button:hover{
     height: 50px;
     width: 350px;
     color: white;
-    font-size: 30px
+    font-size: 30px;
+    transition-duration: 0.4s;
 }
 
 #callToAction:hover{
     color: rgb(255, 149, 0);
-    transition-duration: 0.2s;
     width: 358px;
 }
 
