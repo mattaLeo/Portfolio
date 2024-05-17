@@ -52,7 +52,6 @@ body{
     border-radius: 30px;
     background: linear-gradient(45deg, rgb(33, 33, 33), rgb(84, 84, 84));
     width: 500px;
-    height: 600px;
 }
 
 h4{
@@ -69,26 +68,36 @@ input{
     height: 50px;
     border-radius: 20px;
     border: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #submit{
     margin-left: 30%;
     margin-right: 30%;
-    margin-top: 70px;
+    margin-top: 30px;
+    margin-bottom: 20px;
     width: 40%;
     height: 60px;
-    border-radius: 30px;
-    border: 3px solid rgb(255, 149, 0);
-    background-color: transparent;
+    border-radius: 20px;
+    background-color: rgb(255, 149, 0);
+    border: 2px solid rgb(185, 108, 0);
     font-size: 30px;
     transition-duration: 0.4s;
-    color: white;
+    color: black;
+    font-size: 30px;
 }
 
 #submit:hover{
+    background-color: transparent;
+    color: white;
+}
+
+h3{
+    font-family: 'Pacifico';
+    font-size: 40px;
+    border-top: 20px;
+    border-bottom: 20px;
+    text-align: center;
     color: rgb(255, 149, 0);
-    margin-left: 25%;
-    margin-right: 25%;
-    width: 50%;
-    height: 70px;
 }
